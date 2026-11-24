@@ -1,0 +1,13 @@
+// 1-masala
+function boluvchilarSoni(n) {
+    let soni = 0;
+    for (let i = 1; i <= n; i++) {
+        if (n % i === 0) {
+            soni++;
+        }
+    }
+    return soni;
+}
+
+console.log(boluvchilarSoni(12));        
+console.log(boluvchilarSoni(13));      
