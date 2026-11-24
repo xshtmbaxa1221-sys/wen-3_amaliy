@@ -1,0 +1,13 @@
+// 3-masala
+function juftlarniAjrat(arr) {
+    let natija = [];
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 === 0) {
+            natija.push(arr[i]);
+        }
+    }
+    return natija;
+}
+
+console.log(juftlarniAjrat([1, 2, 3, 4, 5, 6])); 
+console.log(juftlarniAjrat([7, 9]));  
