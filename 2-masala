@@ -1,0 +1,10 @@
+// 2-masala
+function sozniYashir(s) {
+    if (s.length <= 2) {
+        return s;
+    }
+    return s[0] + "*".repeat(s.length - 2) + s[s.length - 1];
+}
+
+console.log(sozniYashir("parol"));    
+console.log(sozniYashir("ok"));      
