@@ -1,0 +1,13 @@
+
+// 4-masala
+function gapniTozala(s) {
+    let matn = s.trim().replace(/\s+/g, " ");
+    matn = matn[0].toUpperCase() + matn.slice(1);
+    if (matn[matn.length - 1] !== ".") {
+        matn += ".";
+    }
+    return matn;
+}
+
+console.log(gapniTozala("  salom  dunyo  "));   
+console.log(gapniTozala("bu tayyor gap."));   
